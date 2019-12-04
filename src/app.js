@@ -1,9 +1,17 @@
 console.log ("hola");
 
-import { initRouter } from " ./ route.js";
+// Routes
+import { initRouter } from './route.js';
+import {initFirebase} from './assets/js/initFirebase.js';
 
+/* init será la función que llame a initRouter apenas cargue el sitio */
 const init = () => {
-    initRouter();
+  initRouter();
+  initFirebase();
 }
 
-window.addEventListener("load" , init); 
+/* para probar si firebase funcionó 
+let app = firebase.app();
+console.log(app);
+*/
+window.addEventListener('load', init);
