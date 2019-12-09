@@ -7,7 +7,7 @@ const containerCreate = document.createElement('div');
 // creamos el contenido del login
 const contentCreate =`<div class="container login">
                         <div class="login-content"> 
-                          <h4>Regístrarse en MovArt</h4>
+                          <h4>Regístrarse en Emprende</h4>
                           <input class="input-register" type="text" id="register-name" placeholder="Ingresa tu nombre">
                           <input class="input-register" type="text" id="register-lastname" placeholder="Ingresa tu apellido">
                           <input class="input-register" type="text" id="register-mail" placeholder="Ingresa tu correo electrónico">

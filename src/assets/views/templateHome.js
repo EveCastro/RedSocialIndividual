@@ -5,8 +5,8 @@ export const templateHome = () => {
     const contentHome = `
     <div class="home-banner">
         <div class="banner-content-container">
-        <h1>Muestra tu arte</h1>
-        <a href="#/create" id="register-btn">Unete</a>
+        <h1>Emprende</h1>
+        <a href="#/create" id="register-btn">Unete a la comunidad de emprendedores</a>
         </div>
         </div>`
 

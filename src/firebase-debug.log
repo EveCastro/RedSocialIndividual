@@ -9,14 +9,14 @@
 [debug] [2019-11-19T14:31:18.676Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
 [debug] [2019-11-19T14:31:18.679Z] > authorizing via signed-in user
 [debug] [2019-11-19T14:31:18.679Z] [iam] checking project moving-916f7 for permissions ["firebase.projects.get"]
-[debug] [2019-11-19T14:31:18.685Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/moving-916f7:testIamPermissions  
+[debug] [2019-11-19T14:31:18.685Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/emprende-872ec:testIamPermissions  
 
 [debug] [2019-11-19T14:31:19.755Z] <<< HTTP RESPONSE 200
-[debug] [2019-11-19T14:31:19.760Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/moving-916f7  
+[debug] [2019-11-19T14:31:19.760Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/emprende-872ec  
  
 [debug] [2019-11-19T14:31:20.861Z] <<< HTTP RESPONSE 200
-[debug] [2019-11-19T14:31:20.865Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/moving-916f7/webApps/-/config  
+[debug] [2019-11-19T14:31:20.865Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/emprende-872ec/webApps/-/config  
  
 [debug] [2019-11-19T14:31:22.137Z] <<< HTTP RESPONSE 200
 [info] i  hosting: Serving hosting files from: src
-[info] +  hosting: Local server: http://localhost:5000
+[info] +  hosting: Local server: http://localhost:3000

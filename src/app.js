@@ -1,4 +1,4 @@
-console.log ("hola");
+console.log ("hola mundo");
 
 // Routes
 import { initRouter } from './route.js';

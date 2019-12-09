@@ -70,7 +70,7 @@ export const initRouter = () => {
     }
 }
 
-
+/*
 export const initRouter = () => {
    window.addEventListener("load" , changeRouter(window.location.hash));
 
@@ -80,4 +80,4 @@ export const initRouter = () => {
            (window.location.hash);
        }
    }
-}
+}*/
